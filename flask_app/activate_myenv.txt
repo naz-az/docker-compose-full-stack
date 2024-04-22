@@ -1,0 +1,10 @@
+python -m venv virtual
+
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+
+
+virtual\Scripts\activate
+
+
+Set-ExecutionPolicy -ExecutionPolicy Default -Scope Process
